@@ -12,13 +12,7 @@ let galilean_moons = ['Io', 'Europa', 'Ganymede', 'Callisto'];
 
 let golden_ratio = 1.61803398874;
 
-
-/* Step 7
- *
- * Declare a variable named "earths_water_composition"
- * and assign the value of earths_water_composition to 0.71
- *
- */
+let earths_water_composition = 0.71;
 
 
 /* Step 8
