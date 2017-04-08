@@ -89,18 +89,14 @@ let sahara_river = () => {
 let addNumbers = (a, b) => {
   return a + b;
 };
-/* Step 21
- *
- * Define a function named "addNumbers"
- * that returns the sum of two numbers
- *
- * @param {Number}
- * @param {Number}
- * @return {Number}
- *
- */
 
-
+let installLinux = (linux) => {
+  if (linuxFlavors.indexOf(linux) >= 0) {
+    return true;
+  } else {
+    return false;
+  }
+};
 /* Step 22
  *
  * Define a function named "installLinux"
