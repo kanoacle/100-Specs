@@ -29,18 +29,12 @@ let princess_leia = {
   gender: gender.female
 };
 
-
-/* Step 11
- *
- * Define a literal object named "domains"
- * with properties and values set to:
- *
- *   ycombinator.com                  => "198.41.190.47"
- *   laughingsquid.com                => "162.159.247.97"
- *   slumlordhosting.com              => "198.61.179.126"
- *   jsonformatter.curiousconcept.com => "104.28.5.70"
- *
- */
+let domains = {
+  'ycombinator.com': '198.41.190.47',
+  'laughingsquid.com': '162.159.247.97',
+  'slumlordhosting.com': '198.61.179.126',
+  'jsonformatter.curiousconcept.com': '104.28.5.70'
+};
 
 
 /* Step 12
