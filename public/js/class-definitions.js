@@ -115,19 +115,17 @@ let browseURL = (url) => {
     return false;
   }
 };
-/* Step 24
- *
- * Define a function named "browseURL" that takes
- * a browser and validates it, as defined by "browsers"
- * If the browser doesn't exist, return false.
- * If the browser exists, return the value which is a partial URL.
- *
- * @param {String}
- * @return {String if true else return false}
- *
- */
 
-
+let listLivingOrgClass = () => {
+  let classes = document.createElement('ul');
+  for (var i = 0; i < livingOrganismClassification.length; i++) {
+    let item = document.createElement('li');
+    item.innerHTML = livingOrganismClassification[i];
+    classes.appendChild(item);
+  }
+  return classes;
+};
+console.log(listLivingOrgClass());
 /* Step 25
  *
  * Define a function named "listLivingOrgClass" that
