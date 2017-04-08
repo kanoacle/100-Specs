@@ -3,14 +3,8 @@
 let unicorn = null;
 
 let videogame_system = 'Atari';
-/* Step 2
- *
- * Declare a variable named "videogame_system"
- * then assign it to be the value of "Atari"
- *
- */
 
-
+let sahara_animal = 'The Addax';
 /* Step 3
  *
  * Declare a variable named "sahara_animal"
