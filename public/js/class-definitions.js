@@ -22,19 +22,12 @@ let gender = {
   unknown: undefined
 };
 
-
-/* Step 10
- *
- *
- * Define a literal object named "princess_leia"
- * with properties and values set to:
- *
- *   name    => "Leia Organa"
- *   money   => 890
- *   age     => 20
- *   gender  => gender.female
- *
- */
+let princess_leia = {
+  name: 'Leia Organa',
+  money: 890,
+  age: 20,
+  gender: gender.female
+};
 
 
 /* Step 11
