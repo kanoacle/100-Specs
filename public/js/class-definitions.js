@@ -68,19 +68,8 @@ let laptopCosts = {
   HP: 499,
   Surface: 320
 };
-/* Step 16
- *
- * Define a literal object named "laptopCosts"
- * with properties and values set to:
- *
- * MacBook      => 1500
- * Alienware    => 2500
- * HP           => 499
- * Surface      => 320
- *
- */
 
-
+let livingOrganismClassification = ['Kingdom','Phylum','Class','Order','Family','Genus','Species'];
 /* Step 17
  *
  * Declare an array named "livingOrganismClassification"
