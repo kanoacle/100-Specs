@@ -70,34 +70,8 @@ let laptopCosts = {
 };
 
 let livingOrganismClassification = ['Kingdom','Phylum','Class','Order','Family','Genus','Species'];
-/* Step 17
- *
- * Declare an array named "livingOrganismClassification"
- * with the following values:
- *
- * "Kingdom"
- * "Phylum"
- * "Class"
- * "Order"
- * "Family"
- * "Genus"
- * "Species"
- *
- */
 
-
-/* Step 18
- *
- * Declare an array named "scmList" with
- * the following values:
- *
- * "git"
- * "svn"
- * "mercurial"
- * "bazaar"
- * "cvs"
- *
- */
+let scmList = ['git', 'svn', 'mercurial', 'bazaar', 'cvs'];
 
 
 /* Step 19
