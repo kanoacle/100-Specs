@@ -97,19 +97,16 @@ let installLinux = (linux) => {
     return false;
   }
 };
-/* Step 22
- *
- * Define a function named "installLinux"
- * that takes a type of Linux as a parameter,
- * checks if it exists in "linuxFlavors" and
- * returns success or failure
- *
- * @param {String}
- * @return {Bool}
- *
- */
 
-
+let drink = (beer) => {
+  if (beers.hasOwnProperty(beer) === false) {
+    return false;
+  } else if (Array.isArray(beers[beer]) === true) {
+    return `This ${beer} is ${beers[beer][0]} and ${beers[beer][1]}.`;
+  } else {
+    return `This ${beer} is ${beers[beer]}.`;
+  }
+};
 /* Step 23
  *
  * Define a function named "drink" that takes
