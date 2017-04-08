@@ -9,13 +9,6 @@ let sahara_animal = 'The Addax';
 let planets = ['Mercury', 'Venus', 'Earth', 'Mars', 'Jupiter', 'Saturn', 'Uranus', 'Neptune'];
 
 let galilean_moons = ['Io', 'Europa', 'Ganymede', 'Callisto'];
-/* Step 5
- *
- * Declare a variable named "galilean_moons"
- * and assign the value of galilean_moons to an array containing
- * each galilean moon of Jupiter
- *
- */
 
 
 /* Step 6 φ
