@@ -2,7 +2,7 @@
 
 let unicorn = null;
 
-
+let videogame_system = 'Atari';
 /* Step 2
  *
  * Declare a variable named "videogame_system"
