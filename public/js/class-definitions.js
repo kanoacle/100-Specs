@@ -7,15 +7,8 @@ let videogame_system = 'Atari';
 let sahara_animal = 'The Addax';
 
 let planets = ['Mercury', 'Venus', 'Earth', 'Mars', 'Jupiter', 'Saturn', 'Uranus', 'Neptune'];
-/* Step 4
- *
- * Declare a variable named "planets"
- * and assign the value of planets to an array containing
- * each planet in our solar system, in order of distance from the sun
- * Capitalize the names.
- */
 
-
+let galilean_moons = ['Io', 'Europa', 'Ganymede', 'Callisto'];
 /* Step 5
  *
  * Declare a variable named "galilean_moons"
