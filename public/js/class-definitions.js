@@ -16,16 +16,11 @@ let earths_water_composition = 0.71;
 
 let club_name = 'Fight Club';
 
-
-/* Step 9
- *
- * Define a literal object named "gender"
- * with properties and values set to:
- *
- *   female  => "female"
- *   male    => "male"
- *   unknown => undefined
- */
+let gender = {
+  female: 'female',
+  male: 'male',
+  unknown: undefined
+};
 
 
 /* Step 10
