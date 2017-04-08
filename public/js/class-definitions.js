@@ -1,9 +1,6 @@
-/* Step 1
- *
- * Declare a variable named "unicorn"
- * then set it's value to null;
- *
- */
+/*jshint esversion: 6*/
+
+let unicorn = null;
 
 
 /* Step 2
