@@ -107,25 +107,14 @@ let drink = (beer) => {
     return `This ${beer} is ${beers[beer]}.`;
   }
 };
-/* Step 23
- *
- * Define a function named "drink" that takes
- * a type of beer as a paramater. If it is not
- * a valid type of beer as defined in "beers",
- * return false. If it is valid, return the following phrases:
- *
- * "This {beerName} is {beerDescription}."
- *
- * Or, if there are multiple descriptions:
- *
- * "This {beerName is {beerDescription1} and {beerDescription2} and..."
- *
- * @param {String}
- * @return {Bool when False, String when True}
- *
- */
 
-
+let browseURL = (url) => {
+  if (browsers.hasOwnProperty(url)) {
+    return `${browsers[url]}`;
+  } else {
+    return false;
+  }
+};
 /* Step 24
  *
  * Define a function named "browseURL" that takes
