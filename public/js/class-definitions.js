@@ -46,7 +46,7 @@ let browsers = {
 };
 
 let rainbow = {
-  color: {
+  colors: {
     red: '#F0280A',
     orange: '#FF8800',
     yellow: '#FFDD00',
@@ -57,37 +57,8 @@ let rainbow = {
   },
   isDouble: true
 };
-/* Step 13
- *
- * Define a literal object named "rainbow"
- * with properties and values set to:
- *
- *  colors    => [LITERAL OBJECT]
- *                  red       => "#F0280A"
- *                  orange    => "#FF8800"
- *                  yellow    => "#FFDD00"
- *                  green     => "#51AB0C"
- *                  blue      => "#1593ED"
- *                  indigo    => "#5215ED"
- *                  violet    => "#A915ED"
- *  isDouble  => true
- *
- */
 
 let linuxFlavors = ['Gentoo', 'Fedora', 'Debian', 'Slackware', 'Red Hat', 'Bieber Linux'];
-/* Step 14
- *
- * Declare an array named "linuxFlavors"
- * with the following values:
- *
- * "Gentoo"
- * "Fedora"
- * "Debian"
- * "Slackware"
- * "Red Hat"
- * "Bieber Linux"
- *
- */
 
 
 /* Step 15
