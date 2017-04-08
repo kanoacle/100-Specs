@@ -85,16 +85,10 @@ let beers = {
 let sahara_river = () => {
   return 'Nile River';
 };
-/* Step 20
- *
- * Define a function named 'sahara_river'
- * that returns the string 'Nile River'
- *
- * @return {String}
- *
- */
 
-
+let addNumbers = (a, b) => {
+  return a + b;
+};
 /* Step 21
  *
  * Define a function named "addNumbers"
