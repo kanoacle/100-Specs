@@ -5,14 +5,8 @@ let unicorn = null;
 let videogame_system = 'Atari';
 
 let sahara_animal = 'The Addax';
-/* Step 3
- *
- * Declare a variable named "sahara_animal"
- * and assign the value of sahara_animal to "The Addax"
- *
- */
 
-
+let planets = ['Mercury', 'Venus', 'Earth', 'Mars', 'Jupiter', 'Saturn', 'Uranus', 'Neptune'];
 /* Step 4
  *
  * Declare a variable named "planets"
