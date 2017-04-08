@@ -61,20 +61,13 @@ let rainbow = {
 let linuxFlavors = ['Gentoo', 'Fedora', 'Debian', 'Slackware', 'Red Hat', 'Bieber Linux'];
 
 let DNA = ['nucleatides', 'guanine', 'adenine', 'thymine', 'cytosine'];
-/* Step 15
- *
- * Declare an array named "DNA" with the
- * following values:
- *
- * "nucleatides"
- * "guanine"
- * "adenine"
- * "thymine"
- * "cytosine"
- *
- */
 
-
+let laptopCosts = {
+  MacBook: 1500,
+  Alienware: 2500,
+  HP: 499,
+  Surface: 320
+};
 /* Step 16
  *
  * Define a literal object named "laptopCosts"
