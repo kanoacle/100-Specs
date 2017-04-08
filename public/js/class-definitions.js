@@ -44,21 +44,19 @@ let browsers = {
   Sleipnir: 'fenrir-inc.com',
   Konqueror: 'konqueror.org'
 };
-/* Step 12
- *
- * Define a literal object named "browsers"
- * with properties and values set to:
- *
- *   Chromium   => "google.com"
- *   Safari     => "apple.com"
- *   Opera      => "opera.com"
- *   Firefox    => "mozilla.org"
- *   Sleipnir   => "fenrir-inc.com"
- *   Konqueror  => "konqueror.org"
- *
- */
 
-
+let rainbow = {
+  color: {
+    red: '#F0280A',
+    orange: '#FF8800',
+    yellow: '#FFDD00',
+    green: '#51AB0C',
+    blue: '#1593ED',
+    indigo: '#5215ED',
+    violet: '#A915ED'
+  },
+  isDouble: true
+};
 /* Step 13
  *
  * Define a literal object named "rainbow"
@@ -76,7 +74,7 @@ let browsers = {
  *
  */
 
-
+let linuxFlavors = ['Gentoo', 'Fedora', 'Debian', 'Slackware', 'Red Hat', 'Bieber Linux'];
 /* Step 14
  *
  * Declare an array named "linuxFlavors"
