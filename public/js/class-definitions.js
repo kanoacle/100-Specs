@@ -82,7 +82,9 @@ let beers = {
   Ale: ['Light', 'Golden']
 };
 
-
+let sahara_river = () => {
+  return 'Nile River';
+};
 /* Step 20
  *
  * Define a function named 'sahara_river'
