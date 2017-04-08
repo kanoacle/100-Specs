@@ -60,7 +60,7 @@ let rainbow = {
 
 let linuxFlavors = ['Gentoo', 'Fedora', 'Debian', 'Slackware', 'Red Hat', 'Bieber Linux'];
 
-
+let DNA = ['nucleatides', 'guanine', 'adenine', 'thymine', 'cytosine'];
 /* Step 15
  *
  * Declare an array named "DNA" with the
