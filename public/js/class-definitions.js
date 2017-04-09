@@ -127,7 +127,6 @@ let listLivingOrgClass = () => {
   }
   return contain.innerHTML;
 };
-console.log(listLivingOrgClass());
 
 let favoritePlanet = (planet) => {
   if (planets.indexOf(planet) < 0) {
@@ -168,19 +167,15 @@ let canTalkAbout = (club) => {
     return true;
   }
 };
-/* Step 29
- *
- * Define a function named "canTalkAbout" that takes
- * a club as a parameter. Return true if you can
- * talk about the club and false if the club passed
- * in has the same value as "club_name"
- *
- * @param {String}
- * @return {Bool}
- *
- */
 
-
+class Pen {
+  constructor (color) {
+    this.color = color;
+  }
+  write (message) {
+    return `${this.color}: ${message}`;
+  }
+}
 /* Step 30
  *
  * Define an ES5 class named "Pen" with a property for
