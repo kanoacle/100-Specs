@@ -160,17 +160,6 @@ let purchaseLaptop = (laptop) => {
     return -1;
   }
 };
-/* Step 28
- *
- * Define a function named "purchaseLaptop" that takes
- * a laptop as a parameter. If the laptop is valid as
- * defined in "laptopCosts" then return the cost as a string. Otherwise,
- * return -1
- *
- * @param {String}
- * @return {String}
- *
- */
 
 
 /* Step 29
