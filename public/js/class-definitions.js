@@ -129,26 +129,14 @@ let listLivingOrgClass = () => {
 };
 console.log(listLivingOrgClass());
 
-
-/* Step 26
- *
- * Define a function named "favoritePlanet" that
- * takes in the person's current planet and validates
- * that the planet exists. If it doesn't, return the
- * following message:
- *
- * "{currentPlanet} is not a planet!"
- *
- * If the planet does exist, select a different, random
- * planet from the "planets" variable. Once selected,
- * return the following message:
- *
- * "I'm from {currentPlanet}, but I wish I could go to {randomPlanet}."
- *
- * @param {String}
- * @return {String}
- *
- */
+let favoritePlanet = (planet) => {
+  if (planets.indexOf(planet) < 0) {
+    return `${planet} is not a planet!`;
+  } else {
+    let newPlanet = planets[Math.floor(Math.random() * (planets.length - 0))];
+    return `I'm from ${planet}, but I wish I could go to ${newPlanet}.`;
+  }
+};
 
 
 /* Step 27
