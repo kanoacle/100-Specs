@@ -194,23 +194,17 @@ class Garden {
   }
 }
 
-
-/* Step 32
- *
- * Define an ES5 class named "SolarSystem" with a property
- * "planets" that is initialized as an empty array. Add
- * a method "addPlanet" that adds a planet to the list
- * and a method "removePlanet" that removes a planet.
- *
- * class
- *   SolarSystem
- * properties
- *   planets
- * methods
- *   addPlanet
- *   removePlanet
- *
- */
+class SolarSystem {
+  constructor () {
+    this.planets = [];
+  }
+  addPlanet () {
+    this.planets.push(planets[Math.floor(Math.random() * (planets.length - 0))]);
+  }
+  removePlanet () {
+    this.planets.pop();
+  }
+}
 
 
 /* Step 33
