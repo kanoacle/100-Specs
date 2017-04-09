@@ -117,24 +117,17 @@ let browseURL = (url) => {
 };
 
 let listLivingOrgClass = () => {
+  let contain = document.createElement('div');
   let classes = document.createElement('ul');
   for (var i = 0; i < livingOrganismClassification.length; i++) {
     let item = document.createElement('li');
     item.innerHTML = livingOrganismClassification[i];
+    contain.appendChild(classes);
     classes.appendChild(item);
   }
-  return classes;
+  return contain.innerHTML;
 };
 console.log(listLivingOrgClass());
-/* Step 25
- *
- * Define a function named "listLivingOrgClass" that
- * returns an HTML-formatted unordered list (<ul>) of all
- * living organism classifications as an list element(<li>)
- *
- * @return {String}
- *
- */
 
 
 /* Step 26
