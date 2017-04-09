@@ -176,54 +176,23 @@ class Pen {
     return `${this.color}: ${message}`;
   }
 }
-/* Step 30
- *
- * Define an ES5 class named "Pen" with a property for
- * color and a class method named "write" that takes
- * a message string as a parameter and returns the
- * string back with the pen's color added to the
- * beginning of the string
- *
- * example: "{color}: {Message passed in}"
- *
- * class
- *   Pen
- *
- * properties
- *   @param {String} color
- *
- * methods
- *   write
- *
- */
 
-
-/* Step 31
- *
- * Define an ES5 class named "Garden" with a property for
- * the number of plants and whether it was recently
- * watered.
- *
- * Define a class method named "water" which
- * sets the recently watered property to true
- *
- * Define class method named "grow" which adds a plant to
- * the garden if it was recently watered and exhausts the water.
- * If this method is called and the 'isWatered' property is
- * false, it should return false;
- *
- * class
- *   Garden
- *
- * properties
- *   @param {Number} plantsTotal
- *   @property {Bool:Not Passed as Argument - Default Value FALSE} isWatered
- *
- * methods
- *   water
- *   grow
- *
- */
+class Garden {
+  constructor (plantsTotal) {
+    this.plantsTotal = plantsTotal;
+    this.isWatered = false;
+  }
+  water () {
+    this.isWatered = true;
+  }
+  grow () {
+    if (this.isWatered === true) {
+      this.plantsTotal++;
+    } else {
+      return false;
+    }
+  }
+}
 
 
 /* Step 32
