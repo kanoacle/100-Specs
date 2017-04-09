@@ -152,30 +152,14 @@ class Person {
     this.money += money;
   }
 }
-/* Step 27
- *
- * Define a class named "Person" that has properties for
- * "name," "money," "age," and "gender." Pass values for
- * all these properies in the constructor. Create methods
- * named "spendMoney" and "earnMoney" that each take an
- * amount of money and add or subtract them to this
- * person's money.
- *
- * class
- *   Person
- * properties
- *   @param {String} name
- *   @param {String} money
- *   @param {String} age
- *   @param {String} gender
- *
- * methods
- *   spendMoney
- *   earnMoney
- *
- */
 
-
+let purchaseLaptop = (laptop) => {
+  if (laptopCosts.hasOwnProperty(laptop)) {
+    return laptopCosts[laptop].toString();
+  } else {
+    return -1;
+  }
+};
 /* Step 28
  *
  * Define a function named "purchaseLaptop" that takes
