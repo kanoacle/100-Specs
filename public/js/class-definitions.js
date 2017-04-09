@@ -161,7 +161,13 @@ let purchaseLaptop = (laptop) => {
   }
 };
 
-
+let canTalkAbout = (club) => {
+  if (club === club_name) {
+    return false;
+  } else {
+    return true;
+  }
+};
 /* Step 29
  *
  * Define a function named "canTalkAbout" that takes
