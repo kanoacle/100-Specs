@@ -206,7 +206,29 @@ class SolarSystem {
   }
 }
 
-
+class PrincessLeia extends Person {
+  constructor (name, money, age, gender) {
+    super(name, money, age, gender);
+    this.isInTrouble = null;
+  }
+  shootsGun () {
+    this.isInTrouble = false;
+    return `Leia shoots her gun wildly`;
+  }
+  getsInTrouble () {
+    this.isInTrouble = true;
+    return `Help me Obi-wan Kenobi, you're my only hope`;
+  }
+  marries (love) {
+    if (love === `Luke Skywalker`) {
+      return `Gross!`;
+    } else if (love === `Han Solo`) {
+      return true;
+    } else {
+      return false;
+    }
+  }
+}
 /* Step 33
  *
  * Define an ES5 class named "PrincessLeia" that is a subclass of "Person"
