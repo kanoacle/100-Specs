@@ -138,7 +138,20 @@ let favoritePlanet = (planet) => {
   }
 };
 
-
+class Person {
+  constructor (name, money, age, gender) {
+    this.name = name;
+    this.money = money;
+    this.age = age;
+    this.gender = gender;
+  }
+  spendMoney (money) {
+    this.money -= money;
+  }
+  earnMoney (money) {
+    this.money += money;
+  }
+}
 /* Step 27
  *
  * Define a class named "Person" that has properties for
